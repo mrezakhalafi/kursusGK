@@ -1,0 +1,58 @@
+.txt-primary {
+	color:#16a9cb;
+}
+
+.garisbawah {
+	width: 150px;
+	background-color: #be5801;
+}
+
+.garisbawah::after {
+	content:'';
+  	position:absolute;
+  	display:block;
+  	border-bottom: 1px solid #be5801;
+    width: 125px;
+    margin-top: 7px;
+    left:50%;
+    transform:translateX(-50%);
+  	-webkit-transform:translateX(-50%);
+
+}
+
+.footer {
+   /*position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #a4a4a4;
+   text-align: center;
+   height: 60px;
+   padding-top: 18px;
+   color: white;
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+}
+
+.table-striped >thead>tr>th {
+   background-color: #4473c5; 
+   color: white;
+ }
+
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #cfd5eb; 
+ }
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #e9ecf5;
+ }
+
+
+#second, #third, #pay {
+  display: none;
+}
